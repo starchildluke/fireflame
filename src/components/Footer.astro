@@ -1,0 +1,26 @@
+---
+let year = new Date().getFullYear()
+---
+
+<footer>
+  <div id="footer-text">
+            <p>Copyright {year} © Fireflame. Built with HTML, CSS, and <a href="https://astro.build/">Astro</a> which has made this super fun.</p>
+          </div>
+          <div id="footer-text">
+          <p>[ <a href="/html-sitemap/">HTML Sitemap</a> ]</p>
+        </div>
+      </footer>
+
+<style>
+footer {
+  border-top: 1px dotted var(--colour_fireflame);
+  margin-top: 2rem;
+  padding: 4rem 0;
+}
+
+footer #footer-text {
+  display: flex;
+  justify-content: center;
+  
+}
+</style>

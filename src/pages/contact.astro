@@ -1,0 +1,33 @@
+---
+// COMPONENTS
+
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import culture from '../data/culture.json'
+import music from '../data/music.json'
+import sports from '../data/sports.json'
+import tech from '../data/tech.json'
+
+// METADATA VARIABLES
+
+let metaTitle = 'Fireflame « Contact';
+let title = 'Contact';
+let description = 'Our contact page';
+let canonicalURL = Astro.canonicalURL.href
+
+---
+<html lang="en">
+  <head>
+    <BaseHead title={metaTitle} description={description} canonicalURL={canonicalURL} />
+</head>
+
+<Header title={title} />
+<body>
+	<main>
+		<p>To submit a link, email us at <a href="mailto:submit@firefla.me?subject=Link submission">submit@firefla.me</a></p>
+      <p>For anything else, email <a href="mailto:webmaster@firefla.me">webmaster@firefla.me</a></p>
+	</main>
+   <Footer></Footer>
+</body>
+</html>
