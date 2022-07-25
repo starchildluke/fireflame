@@ -18,5 +18,10 @@
         "title": "The Tech",
         "desc": "",
         "link": "https://thetech.com"
+    },
+    {
+        "title": "Inverse",
+        "desc": "Inverse sparks curiosity. We cover the latest news and advancements in science, entertainment, gaming, innovation, and the mind and body.",
+        "link": "https://www.inverse.com/"
     }
 ]

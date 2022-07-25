@@ -29,7 +29,7 @@ let canonicalURL = Astro.canonicalURL.href
 <ul class="cat-links">
 	{culture.map((item) => (
               <li class="post-preview post-listing post-list">
-            <a href={item.link}>{item.title}</a> &mdash; {item.desc}
+            <a href={item.link}><Fragment set:html={item.title}></a> &mdash; {item.desc}
           </li>
              ))}
 </ul>
@@ -38,7 +38,7 @@ let canonicalURL = Astro.canonicalURL.href
 <ul class="cat-links">
 	{music.map((item) => (
               <li class="post-preview post-listing post-list">
-            <a href={item.link}>{item.title}</a> &mdash; {item.desc}
+            <a href={item.link}><Fragment set:html={item.title}></a> &mdash; {item.desc}
           </li>
              ))}
 </ul>
@@ -47,7 +47,7 @@ let canonicalURL = Astro.canonicalURL.href
 <ul class="cat-links">
 	{sports.map((item) => (
               <li class="post-preview post-listing post-list">
-            <a href={item.link}>{item.title}</a> &mdash; {item.desc}
+            <a href={item.link}><Fragment set:html={item.title}></a> &mdash; {item.desc}
           </li>
              ))}
 </ul>
@@ -56,7 +56,7 @@ let canonicalURL = Astro.canonicalURL.href
 <ul class="cat-links">
 	{tech.map((item) => (
               <li class="post-preview post-listing post-list">
-            <a href={item.link}>{item.title}</a> &mdash; {item.desc}
+            <a href={item.link}><Fragment set:html={item.title}></a> &mdash; {item.desc}
           </li>
              ))}
 </ul>
