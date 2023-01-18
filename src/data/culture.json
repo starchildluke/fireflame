@@ -5,11 +5,6 @@
         "link": "https://cultrface.co.uk/"
     },
     {
-        "title": "Space Jam",
-        "desc": "Everybody get up, it’s time to slam now / We got a real jam goin’ down. Welcome to the Space Jam.",
-        "link": "https://spacejam.com/"
-    },
-    {
         "title": "Artsy",
         "desc": "",
         "link": "https://www.artsy.net/"
@@ -33,11 +28,6 @@
         "title": "Open Culture",
         "desc": "",
         "link": "http://www.openculture.com/"
-    },
-    {
-        "title": "The Vinyl Factory",
-        "desc": "",
-        "link": "https://thevinylfactory.com/"
     },
     {
         "title": "Atlas Obscura",
@@ -113,6 +103,11 @@
         "title": "The Spaces",
         "desc": "",
         "link": "https://thespaces.com/"
+    },
+    {
+        "title": "Far Out Magazine",
+        "desc": "",
+        "link": "https://faroutmagazine.co.uk/"
     }
 
 ]
