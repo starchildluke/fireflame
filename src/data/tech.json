@@ -23,5 +23,35 @@
         "title": "Inverse",
         "desc": "Inverse sparks curiosity. We cover the latest news and advancements in science, entertainment, gaming, innovation, and the mind and body.",
         "link": "https://www.inverse.com/"
+    },
+    {
+        "title": "Towards Data Science",
+        "desc": "Your home for data science. A Medium publication sharing concepts, ideas and codes.",
+        "link": "https://www.towardsdatascience.com/"
+    },
+    {
+        "title": "GitHub",
+        "desc": "GitHub is where over 100 million developers shape the future of software, together.",
+        "link": "https://github.com/"
+    },
+    {
+        "title": "Data Science Simplified",
+        "desc": "Feel overwhelmed with data science? Get daily updates with the best data science tools and Python practices in one code snippet.",
+        "link": "https://mathdatasimplified.com/"
+    },
+    {
+        "title": "CSS Wizardry",
+        "desc": "Web Performance Optimisation, Engineering, and Consultancy",
+        "link": "https://csswizardry.com/"
+    },
+    {
+        "title": "CSS Tricks",
+        "desc": "Daily articles about CSS, HTML, JavaScript, and all things related to web design and development.",
+        "link": "https://css-tricks.com/"
+    },
+    {
+        "title": "Simon Willison’s Weblog",
+        "desc": "A treasure trove of AI, coding, and tech articles.",
+        "link": "https://simonwillison.net/"
     }
 ]
