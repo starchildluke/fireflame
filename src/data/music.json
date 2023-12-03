@@ -3,5 +3,10 @@
         "title": "Sampleface",
         "desc": "We face the music.",
         "link": "https://sampleface.co.uk/"
-    }
+    },
+    {
+        "title": "The Wildebeest",
+        "desc": "Music. Musings. Ungulates. Since 2012.",
+        "link": "https://the-wildebeest.com/"
+    },
 ]

@@ -5,16 +5,6 @@
         "link": "https://cultrface.co.uk/"
     },
     {
-        "title": "Artsy",
-        "desc": "",
-        "link": "https://www.artsy.net/"
-    },
-    {
-        "title": "Boing Boing",
-        "desc": "",
-        "link": "https://boingboing.net/"
-    },
-    {
         "title": "kottke.org",
         "desc": "",
         "link": "https://kottke.org/"
@@ -35,19 +25,9 @@
         "link": ""
     },
     {
-        "title": "Bored Panda",
-        "desc": "",
-        "link": "https://www.boredpanda.com/"
-    },
-    {
         "title": "The Marginalia",
         "desc": "",
         "link": "https://www.themarginalian.org/"
-    },
-    {
-        "title": "The Morning News",
-        "desc": "",
-        "link": "https://themorningnews.org/"
     },
     {
         "title": "Colossal",
@@ -55,19 +35,9 @@
         "link": "https://www.thisiscolossal.com/"
     },
     {
-        "title": "Oddity Central",
-        "desc": "",
-        "link": "https://www.odditycentral.com/"
-    },
-    {
         "title": "Spectrum Culture",
         "desc": "",
         "link": "https://spectrumculture.com/"
-    },
-    {
-        "title": "Neatorama",
-        "desc": "",
-        "link": "https://www.neatorama.com/"
     },
     {
         "title": "Language Log",
@@ -85,16 +55,6 @@
         "link": "https://www.grammarphobia.com/"
     },
     {
-        "title": "Art News",
-        "desc": "",
-        "link": "https://www.artnews.com/"
-    },
-    {
-        "title": "Abduzeedo",
-        "desc": "",
-        "link": "https://abduzeedo.com/"
-    },
-    {
         "title": "It’s Nice That",
         "desc": "",
         "link": "https://www.itsnicethat.com/"
@@ -108,6 +68,11 @@
         "title": "Far Out Magazine",
         "desc": "",
         "link": "https://faroutmagazine.co.uk/"
+    },
+    {
+        "title": "Kate Pfeilschiefter",
+        "desc": "Visual Developement, Illustration, Modeling",
+        "link": "https://www.katepfeilschiefterart.com/"
     }
 
 ]
