@@ -9,10 +9,11 @@
     "preview": "astro preview"
   },
   "devDependencies": {
-    "astro": "^1.0.0-beta.64"
+    "@rollup/plugin-yaml": "^4.1.2",
+    "astro": "^4.8.4"
   },
   "dependencies": {
-    "@astrojs/sitemap": "^0.1.2",
+    "@astrojs/sitemap": "^3.1.4",
     "sitemapper": "^3.2.2"
   }
 }

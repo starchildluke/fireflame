@@ -2,34 +2,29 @@
 
 const {
   title,
-  description,
-  canonicalURL = Astro.canonicalURL
+  description
 } = Astro.props;
 
 ---
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<meta name="author" content="Fireflame">
-
+<title>{title}</title>
+<link rel="stylesheet" type="text/css" href="/style.css">
+<script defer data-domain="firefla.me" src="https://plausible.io/js/plausible.js"></script>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔥</text></svg>">
 <link rel="alternate icon" href="/favicon.ico">
-<link rel="stylesheet" type="text/css" href="/style.css">
-
-<!-- Primary Meta Tags -->
-<title>{title}</title>
 <meta name="title" content={title} />
 <meta name="description" content={description} />
-<meta name="generator" content="Astro 1.0.0-beta.53">
-<link rel="canonical" href={canonicalURL} />
-
-<!-- Open Graph / Facebook -->
+<meta name="generator" content={Astro.generator}>
+<link rel="canonical" href={Astro.url} />
 <meta property="og:type" content="website" />
-<meta property="og:url" content={canonicalURL} />
+<meta property="og:url" content={Astro.url} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
-
-<!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content={canonicalURL} />
+<meta property="twitter:url" content={Astro.url} />
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
+<link href="https://github.com/starchildluke" rel="me">
+<link rel="authorization_endpoint" href="https://indieauth.com/auth">
+</head>

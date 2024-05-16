@@ -4,10 +4,6 @@
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import culture from '../data/culture.json';
-import music from '../data/music.json';
-import sports from '../data/sports.json';
-import tech from '../data/tech.json';
 import Sitemapper from 'sitemapper';
 
 // METADATA VARIABLES
@@ -15,7 +11,6 @@ import Sitemapper from 'sitemapper';
 let metaTitle = 'Fireflame « HTML Sitemap';
 let title = 'HTML Sitemap';
 let description = '';
-let canonicalURL = Astro.canonicalURL.href
 
 const sitemap = new Sitemapper();
 
@@ -24,7 +19,7 @@ const sitemapURLs = await sitemap.fetch('https://www.firefla.me/sitemap.xml');
 ---
 <html lang="en">
   <head>
-    <BaseHead title={metaTitle} description={description} canonicalURL={canonicalURL} />
+    <BaseHead title={metaTitle} description={description} />
 </head>
 
 <Header title={title} />
