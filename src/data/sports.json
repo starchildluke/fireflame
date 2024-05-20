@@ -1,58 +1,144 @@
 [
-    {
-        "title": "Grantland (RIP)",
-        "desc": "",
-        "link": "https://grantland.com/"
-    },
-    {
-        "title": "SB Nation",
-        "desc": "",
-        "link": "https://www.sbnation.com/"
-    },
-    {
-        "title": "The Ringer",
-        "desc": "",
-        "link": "https://www.theringer.com/"
-    },
-    {
-        "title": "Guardian Sport",
-        "desc": "",
-        "link": "https://www.theguardian.com/uk/sport"
-    },
-    {
-        "title": "Deadspin",
-        "desc": "",
-        "link": "https://deadspin.com/"
-    },
-    {
-        "title": "The Athletic",
-        "desc": "",
-        "link": "https://theathletic.com/"
-    },
-    {
-        "title": "Open Culture",
-        "desc": "",
-        "link": "http://www.openculture.com/"
-    },
-    {
-        "title": "Bleacher Report",
-        "desc": "",
-        "link": "https://bleacherreport.com/"
-    },
-    {
-        "title": "Defector",
-        "desc": "",
-        "link": "https://defector.com/"
-    },
-    {
-        "title": "Andscape",
-        "desc": "",
-        "link": "https://andscape.com/"
-    },
-    
-    {
-        "title": "Tennis Buzz (RIP)",
-        "desc": "",
-        "link": "https://tennis-buzz.com/"
-    }
+  {
+    "title": "Grantland (RIP)",
+    "desc": "a sports and pop culture blog formerly owned and operated by ESPN",
+    "link": "https://grantland.com/",
+    "tags": [
+      "pop culture",
+      "American football",
+      "basketball",
+      "soccer",
+      "golf",
+      "wrestling",
+      "tennis"
+    ]
+  },
+  {
+    "title": "SB Nation",
+    "desc": "Sports news, video, live coverage, community",
+    "link": "https://www.sbnation.com/",
+    "tags": [
+      "American football",
+      "basketball",
+      "soccer",
+      "golf",
+      "MMA",
+      "wrestling",
+      "F1",
+      "tennis"
+    ]
+  },
+  {
+    "title": "The Ringer",
+    "desc": "Sports, pop culture, and tech.",
+    "link": "https://www.theringer.com/",
+    "tags": [
+      "pop culture",
+      "American football",
+      "basketball",
+      "soccer",
+      "golf",
+      "MMA",
+      "wrestling",
+      "F1",
+      "tennis"
+    ]
+  },
+  {
+    "title": "Guardian Sport",
+    "desc": "Sport news, results, fixtures, blogs and comments on UK and world sport from the Guardian",
+    "link": "https://www.theguardian.com/uk/sport",
+    "tags": [
+      "soccer",
+      "cricket",
+      "rugby",
+      "tennis",
+      "cycling",
+      "F1",
+      "golf",
+      "boxing",
+      "American football",
+      "basketball"
+    ]
+  },
+  {
+    "title": "Deadspin",
+    "desc": "Deadspin brings you the latest sports news, stories, videos, and more.",
+    "link": "https://deadspin.com/",
+    "tags": [
+      "soccer",
+      "American football",
+      "basketball",
+      "golf",
+      "ice hockey"
+    ]
+  },
+  {
+    "title": "The Athletic",
+    "desc": "Sports coverage across every team you care about and every league you follow.",
+    "link": "https://theathletic.com/",
+    "tags": [
+      "American football",
+      "F1",
+      "golf",
+      "tennis",
+      "soccer",
+      "basketball",
+      "baseball",
+      "ice hockey",
+      "boxing",
+      "MMA"
+    ]
+  },
+  {
+    "title": "Bleacher Report",
+    "desc": "Fan easier, fan faster and fan better with Bleacher Report. Keep up with the latest storylines, expert analysis, highlights and scores for all your favorite sports.",
+    "link": "https://bleacherreport.com/",
+    "tags": [
+      "American football",
+      "F1",
+      "golf",
+      "tennis",
+      "soccer",
+      "basketball",
+      "baseball",
+      "ice hockey",
+      "boxing",
+      "wrestling",
+      "MMA"
+    ]
+  },
+  {
+    "title": "Defector",
+    "desc": "Defector is an employee-owned sports and culture website brought to you by the former staffers of Deadspin.",
+    "link": "https://defector.com/",
+    "tags": [
+      "American football",
+      "tennis",
+      "soccer",
+      "basketball",
+      "baseball",
+      "pop culture"
+    ]
+  },
+  {
+    "title": "Andscape",
+    "desc": "Visit Andscape to get news and commentary that explores the intersections of race, sports, culture and more.",
+    "link": "https://andscape.com/",
+    "tags": [
+      "American football",
+      "golf",
+      "basketball",
+      "baseball",
+      "pop culture"
+    ]
+  },
+  {
+    "title": "Tennis Buzz",
+    "desc": "Breaking news, live scores, feature content and more from the ATP Tour, WTA Tour and all four Grand Slams",
+    "link": "https://tennis-buzz.com/",
+    "tags": [
+      "tennis"
+    ]
+  }
 ]

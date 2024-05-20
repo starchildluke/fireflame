@@ -1,0 +1,49 @@
+---
+---
+
+<script>
+  import fuzzysort from 'fuzzysort';
+  import culture from '../data/culture.yaml';
+  import sports from '../data/sports.yaml';
+  import stem from '../data/stem.yaml';
+
+  const searchEl = document.querySelector('#search');
+  const results = document.querySelector('.results');
+  const cross = document.querySelector('#cross');
+
+  const index = [].concat(culture, sports, stem);
+  const indexKeys = ['title', 'desc'];
+  const highlightColour = ['<span style="color:var(--colour_fireflame);"><strong>', '</strong></span>'];
+
+  cross.addEventListener("click", (e) => {
+    searchEl.value = '';
+    results.innerHTML = '';
+    cross.style.opacity = '0';
+  });
+
+  searchEl.addEventListener("input", (e) => {
+    cross.style.opacity = '1';
+    const text = searchEl.value;
+    const fuzz = fuzzysort.go(text, index, {
+        keys: indexKeys,
+        limit: 10
+      });
+
+    if (text) {
+        results.innerHTML = fuzz.length ? fuzz.map((c) => (
+          `<div class="search-result" data-score=${c.score.toFixed(3)}><a style="font-size:1.25rem;color:#555;" href=${c['obj']['link']}>
+              ${c[0].highlight().length === 0 ? c['obj']['title'] : c[0].highlight(highlightColour[0], highlightColour[1])}
+            </a>
+            <p style="margin-bottom:1rem;">${c[1].highlight().length === 0 ? c['obj']['desc'] : c[1].highlight(highlightColour[0], highlightColour[1])}</p></div>`)).join("") : 'Nothing found ☹️';
+      } else {
+        results.innerHTML = '';
+      };
+
+    document.querySelectorAll('[data-score]').forEach(el => {
+          if (parseFloat(el.dataset.score) < 0.75) {
+            el.style.opacity = 0.5;
+          }
+    });
+
+  });
+  </script>

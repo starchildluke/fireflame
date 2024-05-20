@@ -1,0 +1,12 @@
+---
+const { indexTags } = Astro.props;
+
+const indexSet = [...new Set(indexTags)];
+
+---
+
+<p>{indexSet.map((tag, i) => (
+                  <span><a href=`/tag/${tag.toLowerCase().replace(' ', '-')}/`>{tag}</a>{i < indexSet.length - 1 ? ", " : ""}</span>
+                  )
+               )
+            }</p>

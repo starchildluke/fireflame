@@ -1,67 +1,36 @@
 ---
 // COMPONENTS
 
-import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
+import Layout from '../layouts/Layout.astro';
 import Footer from '../components/Footer.astro';
-import culture from '../data/culture.json'
-import music from '../data/music.json'
-import sports from '../data/sports.json'
-import tech from '../data/tech.json'
+import YahooLinks from '../components/YahooLinks.astro';
+import culture from '../data/culture.yaml'
+import sports from '../data/sports.yaml'
+import stem from '../data/stem.yaml'
+
+const cultureTags = culture.flatMap((item: any) => ( item?.tags ));
+const sportsTags = sports.flatMap((item: any) => ( item?.tags ));
+const stemTags = stem.flatMap((item: any) => ( item?.tags ));
 
 // METADATA VARIABLES
 
-let metaTitle = 'Fireflame « A fire site of cool links!';
-let title = 'Fireflame';
-let description = 'A fire site of cool links!';
-
-
+const metaTitle = 'A fire site of cool links!';
+const title = 'Fireflame';
+const description = 'A fire site of cool links!';
 
 ---
-<html lang="en">
-  <head>
-    <BaseHead title={metaTitle} description={description} />
-</head>
-
-<Header title={title} />
-<body>
-	<main>
-		<h2>Culture</h2>
-<ul class="cat-links">
-	{culture.map((item) => (
-              <li class="post-preview post-listing post-list">
-            <a href={item.link}><Fragment set:html={item.title}></a> &mdash; {item.desc}
-          </li>
-             ))}
-</ul>
-
-<h2>Music</h2>
-<ul class="cat-links">
-	{music.map((item) => (
-              <li class="post-preview post-listing post-list">
-            <a href={item.link}><Fragment set:html={item.title}></a> &mdash; {item.desc}
-          </li>
-             ))}
-</ul>
-
-<h2>Sports</h2>
-<ul class="cat-links">
-	{sports.map((item) => (
-              <li class="post-preview post-listing post-list">
-            <a href={item.link}><Fragment set:html={item.title}></a> &mdash; {item.desc}
-          </li>
-             ))}
-</ul>
-
-<h2>Technology</h2>
-<ul class="cat-links">
-	{tech.map((item) => (
-              <li class="post-preview post-listing post-list">
-            <a href={item.link}><Fragment set:html={item.title}></a> &mdash; {item.desc}
-          </li>
-             ))}
-</ul>
-	</main>
-</body>
-<Footer></Footer>
-</html>
+<Layout metaTitle={"Fireflame – A fire site of cool links!"}  {description}>
+      <div class="category">
+         <h2>Culture</h2>
+            <YahooLinks indexTags={cultureTags} />
+      </div>
+      <div class="category">
+         <h2>Sports</h2>
+            <YahooLinks indexTags={sportsTags} />
+      </div>
+      <div class="category">
+         <h2>STEM (science, technology, engineering, and mathematics)</h2>
+         <YahooLinks indexTags={stemTags} />
+      </div>
+<Footer />
+</Layout>

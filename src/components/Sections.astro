@@ -1,0 +1,12 @@
+---
+const { category } = Astro.props;
+---
+
+<ul class="cat-links">
+
+	{category.map((item) => (
+              <li class="post-preview post-listing post-list">
+            <a href={item.link}><Fragment set:html={item.title}></a> &mdash; {item.desc}
+          </li>
+             ))}
+</ul>
