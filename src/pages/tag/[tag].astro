@@ -11,19 +11,19 @@ export async function getStaticPaths() {
   return tags.map(( tag ) => {
     return {
       params: { tag: tag.toLowerCase().replace(" ","-") },
-      props: { index, tag, tags }
+      props: { index, tag }
     };
   });
 }
 
-const { index, tag, tags } = Astro.props;
+const { index, tag } = Astro.props;
 
 ---
 <Layout metaTitle={tag + " link tag"} description="test">
 
   <h1>{tag}</h1>
-  {tags.filter((i) => (i.includes(tag)))
-        .flatMap((idx) => (
+  {index.filter((i) => (i.tags.includes(tag)))
+        .map((idx) => (
       <h2><a href={idx.link}>{idx.title}</a></h2>
         <p>{idx.desc}</p>
         )
