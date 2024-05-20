@@ -2,11 +2,13 @@
 interface Props {
   metaTitle: string;
   description: string;
+  robotsTag: string;
 }
 
 const {
   metaTitle,
-  description
+  description,
+  robotsTag
 } = Astro.props;
 
 ---
@@ -25,10 +27,13 @@ const {
 <meta property="og:url" content={Astro.url} />
 <meta property="og:title" content={`${metaTitle} | Fireflame`} />
 <meta property="og:description" content={description} />
+<meta property="og:image" content="/fireflame-og-img.jpeg" />
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content={Astro.url} />
 <meta property="twitter:title" content={`${metaTitle} | Fireflame`} />
 <meta property="twitter:description" content={description} />
+<meta property="twitter:image" content="/fireflame-og-img.jpeg" />
 <link href="https://github.com/starchildluke" rel="me">
 <link rel="authorization_endpoint" href="https://indieauth.com/auth">
+{robotsTag === 'noindex' ? <meta name="robots" content="noindex"> : ''}
 </head>

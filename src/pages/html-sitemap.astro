@@ -8,8 +8,7 @@ import Sitemapper from 'sitemapper';
 
 // METADATA VARIABLES
 
-let metaTitle = 'Fireflame « HTML Sitemap';
-let title = 'HTML Sitemap';
+let metaTitle = 'HTML Sitemap';
 let description = '';
 
 const sitemap = new Sitemapper();
@@ -19,10 +18,10 @@ const sitemapURLs = await sitemap.fetch('https://www.firefla.me/sitemap.xml');
 ---
 <html lang="en">
   <head>
-    <BaseHead title={metaTitle} description={description} />
+    <BaseHead {metaTitle} description={description} />
 </head>
 
-<Header title={title} />
+<Header {metaTitle} />
 <body>
   <main>
           <ul>

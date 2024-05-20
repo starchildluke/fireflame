@@ -7,17 +7,16 @@ import Footer from '../components/Footer.astro';
 
 // METADATA VARIABLES
 
-let metaTitle = 'Fireflame « Contact';
-let title = 'Contact';
+let metaTitle = 'Contact';
 let description = 'Our contact page';
 
 ---
 <html lang="en">
   <head>
-    <BaseHead title={metaTitle} description={description} />
+    <BaseHead {metaTitle} description={description} />
 </head>
 
-<Header title={title} />
+<Header {metaTitle} />
 <body>
 	<main>
 		<p>To submit a link, email us at <a href="mailto:submit@firefla.me?subject=Link submission">submit@firefla.me</a></p>

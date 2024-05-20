@@ -6,13 +6,14 @@ interface Props {
   metaTitle: string;
   title: string;
   description: string;
+  robotsTag: string;
 }
 
-const { title, metaTitle, description } = Astro.props;
+const { title, metaTitle, description, robotsTag } = Astro.props;
 
 ---
 <html lang="en-GB">
-  <BaseHead {metaTitle} {description} />
+  <BaseHead {metaTitle} {description} {robotsTag} />
   <div class="container">
   <body>
     <Header {title} />
