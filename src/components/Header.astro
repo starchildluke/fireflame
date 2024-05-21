@@ -2,16 +2,17 @@
 ---
 <header class="fireflame_header">
   <div class="title">
-    <h1>🔥 Fireflame 🔥</h1>
-    <h2 class="tagline">A fire site of cool links!</h2>
+    {Astro.url.pathname === "/" ? <h1>🔥 Fireflame 🔥</h1> : <span class="fireflame_wordmark">🔥 Fireflame 🔥</span>}
+    {Astro.url.pathname === "/" ? <h2 class="tagline">A fire site of cool links!</h2> : <p class="tagline">A fire site of cool links!</p>}
+    
   </div>
   <hr>
   <nav class="fireflame_nav">
     <ul>
       <li><a href="/">Home</a></li>
-      <li>About</li>
+      <li><a href="/about/">About</a></li>
       <li><a href="/contact/">Contact</a></li>
-      <li>News</li>
+      <li><a href="https://web.archive.org/web/19981212015928/http://news.bbc.co.uk:80/">News</a></li>
       <li><a href="https://weather.lycos.com/">Weather</a></li>
       <li><a href="/search/">Search</a></li>
     </ul>

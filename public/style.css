@@ -30,17 +30,16 @@ a:hover {
 	color: var(--colour_offwhite);
 }
 
-h1 {
+h1, h2, h3, h4, .fireflame_wordmark, p.tagline {
 	font-family: Arial Black, Arial, sans-serif;
 }
 
-h1, h2, h3, h4 {
-	font-family: Arial Black, Arial, sans-serif;
+h1, h2, h3, h4, .fireflame_wordmark {
 	line-height: 1.5;
 	letter-spacing: -0.05rem;
 }
 
-h1, header, .category {
+main h1, header, .category, main p {
 	margin-bottom: 1rem;
 }
 
@@ -59,6 +58,14 @@ header {
 	flex-direction: column;
 }
 
+main {
+	margin-top: 1rem;
+}
+
+main p {
+	line-height: 1.4;
+}
+
 .container {
 	display: flex;
 	flex-direction: column;
@@ -67,10 +74,18 @@ header {
 	max-width: 690px;
 }
 
+.fireflame_wordmark {
+	font-size: 2rem;
+}
+
 .fireflame_header .tagline {
 	color: #b22222;
 	letter-spacing: 5px;
 	font-style: italic;
+}
+
+p.tagline {
+	font-size: 1.5rem;
 }
 
 .fireflame_header .title {
