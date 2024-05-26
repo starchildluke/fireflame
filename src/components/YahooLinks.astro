@@ -6,7 +6,7 @@ const indexSet = [...new Set(indexTags)];
 const linkList = new Intl.ListFormat(
     'en', {style: 'short', type: 'unit'})
     .format(indexSet.map((tag) => (
-    `<span><a href="/tag/${tag.toLowerCase().replace(' ', '-')}"/>${tag}</a></span>`
+    `<span><a href="/tag/${tag.toLowerCase().replace(' ', '-')}/"/>${tag}</a></span>`
     )
 ))
 

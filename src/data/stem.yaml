@@ -59,6 +59,9 @@
   tags:
     - tech
     - programming
+    - CSS
+    - web performance
+    - the Web
   
 - title: CSS Tricks
   desc: Daily articles about CSS, HTML, JavaScript, and all things related to web design and development.
@@ -66,6 +69,10 @@
   tags:
     - tech
     - programming
+    - CSS
+    - the Web
+    - HTML
+    - JavaScript
   
 - title: Simon Willison’s Weblog
   desc: A treasure trove of AI, coding, and tech articles.
@@ -73,3 +80,11 @@
   tags:
     - tech
     - programming
+    - AI
+
+- title: page-speed.dev
+  desc: See and share Core Web Vitals and PageSpeed Insights results simply and easily.
+  link: https://page-speed.dev/
+  tags:
+    - tech
+    - web performance
