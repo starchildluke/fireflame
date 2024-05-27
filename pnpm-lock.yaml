@@ -23,6 +23,9 @@ importers:
       sitemapper:
         specifier: ^3.2.2
         version: 3.2.8
+      yaml:
+        specifier: ^2.4.2
+        version: 2.4.2
     devDependencies:
       '@rollup/plugin-yaml':
         specifier: ^4.1.2
@@ -2022,6 +2025,11 @@ packages:
 
   yallist@3.1.1:
     resolution: {integrity: sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==}
+
+  yaml@2.4.2:
+    resolution: {integrity: sha512-B3VqDZ+JAg1nZpaEmWtTXUlBneoGx6CPM9b0TENK6aoSu5t73dItudwdgmi6tHlIZZId4dZ9skcAQ2UbcyAeVA==}
+    engines: {node: '>= 14'}
+    hasBin: true
 
   yargs-parser@21.1.1:
     resolution: {integrity: sha512-tVpsJW7DdjecAiFpbIB1e3qxIQsE6NoPc5/eTdrbbIC4h0LVsWhnoa3g+m2HclBIujHzsxZ4VJVA+GUuc2/LBw==}
@@ -4259,6 +4267,8 @@ snapshots:
   xmlbuilder@11.0.1: {}
 
   yallist@3.1.1: {}
+
+  yaml@2.4.2: {}
 
   yargs-parser@21.1.1: {}
 

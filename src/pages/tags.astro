@@ -1,0 +1,24 @@
+---
+// COMPONENTS
+
+import Layout from '../layouts/Layout.astro';
+import Footer from '../components/Footer.astro';
+import FuzzySearch from '../components/FuzzySearch.astro';
+import SearchIndex from '../components/SearchIndex.astro';
+
+// METADATA VARIABLES
+
+const metaTitle = 'Tags';
+const description = 'The tags page.';
+
+---
+<Layout metaTitle={metaTitle} description={description}>
+
+<h1>Tags</h1>
+
+<p>This is a list of all the tags used to categorise the pages in Fireflame's index.</p>
+
+<SearchIndex />
+  
+<Footer />
+</Layout>

@@ -14,6 +14,10 @@ const description = 'A search page.';
 <Layout metaTitle={metaTitle} description={description} robotsTag="noindex">
 
 <style>
+
+  .search-paragraph {
+    text-align: center;
+  }
   
   .search-bar {
     display: flex;
@@ -47,6 +51,12 @@ const description = 'A search page.';
   }
 
 </style>
+
+<section class="search-paragraph">
+  <h1>Search</h1>
+
+  <p>This is the search page where you can use the fuzzy search engine to find anything in the index. Alternatively, you can look through <a href="/tags/">the tags</a> if you're looking for something in a particular category.</p>
+  </section>
 
   <search class="search-bar">
     <div class="outer-search">

@@ -1,0 +1,24 @@
+---
+import { Document } from 'yaml';
+
+import culture from '../data/culture.yaml';
+import sports from '../data/sports.yaml';
+import stem from '../data/stem.yaml';
+
+const index = [].concat(culture, sports, stem);
+
+const indexTags = index.flatMap( (i: any) => (i?.tags) )
+// const indexDoc = new Document(index);
+// indexDoc.commentBefore = 'The complete Fireflame index';
+// const searchIndex = String(indexDoc);
+
+const indexSet = [...new Set(indexTags)];
+
+const indexMapped = indexSet.sort((a,b) => a.localeCompare(b)).map( (ind) => (
+	`<li><a href="/tag/${ind.toLowerCase().replace(' ', '-')}/"/>${ind}</a></li>`
+	) )
+
+---
+<ul>
+	<Fragment set:html={indexMapped} />
+</ul>

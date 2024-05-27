@@ -88,3 +88,39 @@
   tags:
     - tech
     - web performance
+
+- title: 100 days of fonts
+  desc: 100 Days of Fonts is a personal creative project inspired by Elle Luna who designed and coded a combination of Google Fonts, the result of which lives on this page.
+  link: http://100daysoffonts.com/
+  tags:
+    - CSS
+    - the Web
+    - HTML
+
+- title: 'Learning from Lego: A Step Forward in Modular Web Design'
+  desc: It’s time to reexamine the toys in your conceptual toy box. When you see how to make web components modular down to the elements level, you may leave the Russian nesting doll metaphor and start to envision content blocks as Lego bricks. Samantha Zhang calls it a game changer.
+  link: https://alistapart.com/article/learning-from-lego-a-step-forward-in-modular-web-design/
+  tags:
+    - CSS
+    - the Web
+
+- title: 'Understanding Flexbox: Everything you need to know'
+  desc: This article will cover all the fundamental concepts you need to get good with the CSS Flexbox model.
+  link: https://www.freecodecamp.org/news/understanding-flexbox-everything-you-need-to-know-b4013d4dc9af
+  tags:
+    - CSS
+    - the Web
+
+- title: HTML Reference - A free guide to all HTML elements and attributes.
+  desc: htmlreference.io is a free guide to HTML. It features all elements and attributes.
+  link: https://htmlreference.io/
+  tags:
+    - HTML
+    - the Web
+
+- title: CSS Reference - A free visual guide to CSS.
+  desc: CSS Reference is a free visual guide to CSS. It features the most popular properties, and explains them with illustrated and animated examples.
+  link: https://cssreference.io/
+  tags:
+    - CSS
+    - the Web
