@@ -4,9 +4,12 @@
 import Layout from '../layouts/Layout.astro';
 import Footer from '../components/Footer.astro';
 import YahooLinks from '../components/YahooLinks.astro';
-import culture from '../data/culture.yaml'
-import sports from '../data/sports.yaml'
-import stem from '../data/stem.yaml'
+
+import { getCollection } from 'astro:content';
+
+import culture from '../data/culture.yaml';
+import sports from '../data/sports.yaml';
+import stem from '../data/stem.yaml';
 
 const cultureTags = culture.flatMap((item: any) => ( item?.tags ));
 const sportsTags = sports.flatMap((item: any) => ( item?.tags ));

@@ -1,0 +1,126 @@
+- title: Ars Technica
+  desc: Serving the Technologist for more than a decade. IT news, reviews, and analysis.
+  link: https://arstechnica.com/
+  tags:
+    - science
+    - tech
+    - gaming
+  
+- title: LOGiCFACE
+  desc: A STEM blog focussing on Black people and POCs.
+  link: https://logicface.co.uk/
+  tags:
+    - science
+    - engineering
+    - mathematics
+    - tech
+  
+- title: One Terabyte of Kilobyte Age
+  desc: Digging through the Geocities Torrent
+  link: https://blog.geocities.institute/
+  tags:
+    - the Web
+  
+- title: Inverse
+  desc: Inverse sparks curiosity. We cover the latest news and advancements in science, entertainment, gaming, innovation, and the mind and body.
+  link: https://www.inverse.com/
+  tags:
+    - science
+    - gaming
+    - gear
+    - health
+    - tech
+  
+- title: Towards Data Science
+  desc: Your home for data science. A Medium publication sharing concepts, ideas and codes.
+  link: https://www.towardsdatascience.com/
+  tags:
+    - tech
+    - science
+    - programming
+  
+- title: GitHub
+  desc: GitHub is where over 100 million developers shape the future of software, together.
+  link: https://github.com/
+  tags:
+    - tech
+    - programming
+  
+- title: Data Science Simplified
+  desc: Feel overwhelmed with data science? Get daily updates with the best data science tools and Python practices in one code snippet.
+  link: https://mathdatasimplified.com/
+  tags:
+    - tech
+    - programming
+  
+- title: CSS Wizardry
+  desc: Web Performance Optimisation, Engineering, and Consultancy
+  link: https://csswizardry.com/
+  tags:
+    - tech
+    - programming
+    - CSS
+    - web performance
+    - the Web
+  
+- title: CSS Tricks
+  desc: Daily articles about CSS, HTML, JavaScript, and all things related to web design and development.
+  link: https://css-tricks.com/
+  tags:
+    - tech
+    - programming
+    - CSS
+    - the Web
+    - HTML
+    - JavaScript
+  
+- title: Simon Willison’s Weblog
+  desc: A treasure trove of AI, coding, and tech articles.
+  link: https://simonwillison.net/
+  tags:
+    - tech
+    - programming
+    - AI
+
+- title: page-speed.dev
+  desc: See and share Core Web Vitals and PageSpeed Insights results simply and easily.
+  link: https://page-speed.dev/
+  tags:
+    - tech
+    - web performance
+
+- title: 100 days of fonts
+  desc: 100 Days of Fonts is a personal creative project inspired by Elle Luna who designed and coded a combination of Google Fonts, the result of which lives on this page.
+  link: http://100daysoffonts.com/
+  tags:
+    - CSS
+    - the Web
+    - HTML
+
+- title: 'Learning from Lego: A Step Forward in Modular Web Design'
+  desc: It’s time to reexamine the toys in your conceptual toy box. When you see how to make web components modular down to the elements level, you may leave the Russian nesting doll metaphor and start to envision content blocks as Lego bricks. Samantha Zhang calls it a game changer.
+  link: https://alistapart.com/article/learning-from-lego-a-step-forward-in-modular-web-design/
+  tags:
+    - CSS
+    - the Web
+
+- title: 'Understanding Flexbox: Everything you need to know'
+  desc: This article will cover all the fundamental concepts you need to get good with the CSS Flexbox model.
+  link: https://www.freecodecamp.org/news/understanding-flexbox-everything-you-need-to-know-b4013d4dc9af
+  tags:
+    - CSS
+    - the Web
+
+- title: HTML Reference - A free guide to all HTML elements and attributes.
+  desc: htmlreference.io is a free guide to HTML. It features all elements and attributes.
+  link: https://htmlreference.io/
+  tags:
+    - HTML
+    - the Web
+
+- title: CSS Reference - A free visual guide to CSS.
+  desc: CSS Reference is a free visual guide to CSS. It features the most popular properties, and explains them with illustrated and animated examples.
+  link: https://cssreference.io/
+  tags:
+    - CSS
+    - the Web

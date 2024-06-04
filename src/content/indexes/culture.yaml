@@ -1,0 +1,102 @@
+- title: Cultrface
+  desc: 'We do it #ForTheCultrs.'
+  link: https://cultrface.co.uk/
+  tags:
+    - Black culture
+
+- title: kottke.org
+  desc: home of fine hypertext products
+  link: https://kottke.org/
+  tags:
+    - blogging
+
+- title: Waxy.org
+  desc: the personal sandbox of Andy Baio
+  link: https://waxy.org/
+  tags:
+    - blogging
+
+- title: Open Culture
+  desc: The best free cultural & educational media on the web
+  link: https://www.openculture.com/
+  tags:
+    - education
+
+- title: Atlas Obscura
+  desc: Definitive guidebook and friendly tour-guide to the world's most wondrous places. Travel tips, articles, strange facts and unique events.
+  link: https://www.atlasobscura.com/
+  tags:
+    - travel
+
+- title: The Marginalia
+  desc: Marginalia on our search for meaning
+  link: https://www.themarginalian.org/
+  tags:
+    - life
+    - writing
+
+- title: Colossal
+  desc: The best of art, craft, and visual culture since 2010.
+  link: https://www.thisiscolossal.com/
+  tags:
+    - art
+
+- title: Spectrum Culture
+  desc: Rather than be news-driven like many of the major webzines, Spectrum Culture will devote itself to features and reviews.
+  link: https://spectrumculture.com/
+  tags:
+    - art
+    - music
+
+- title: Language Log
+  desc: a collaborative language blog maintained by Mark Liberman, a phonetician at the University of Pennsylvania
+  link: https://languagelog.ldc.upenn.edu/nll/
+  tags:
+    - language
+
+- title: Grammarphobia
+  desc: Grammar, etymology, linguistics, usage, and more from the bestselling language writers Patricia T. O'Conner and Stewart Kellerman.
+  link: https://www.grammarphobia.com/
+  tags:
+    - language
+
+- title: It’s Nice That
+  desc: Inspiring Creativity. Our mission is to inspire the global creative community. We share stories, offer insights and bring people together to help them make more of their creativity.
+  link: https://www.itsnicethat.com/
+  tags:
+    - art
+    - design
+
+- title: The Spaces
+  desc: A digital magazine on architecture, design, art and property.
+  link: https://thespaces.com/
+  tags:
+    - architecture
+
+- title: Far Out Magazine
+  desc: The number one website for culture news in the world.
+  link: https://faroutmagazine.co.uk/
+  tags:
+    - music
+    - film
+    - travel
+    - art
+
+- title: Kate Pfeilschiefter
+  desc: Visual Developement, Illustration, Modeling
+  link: https://www.katepfeilschiefterart.com/
+  tags:
+    - art
+    - design
+
+- title: Sampleface
+  desc: We face the music.
+  link: https://sampleface.co.uk/
+  tags:
+    - music
+
+- title: The Wildebeest
+  desc: Music. Musings. Ungulates. Since 2012.
+  link: https://the-wildebeest.com/
+  tags:
+    - music
