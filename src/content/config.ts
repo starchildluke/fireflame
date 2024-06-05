@@ -20,4 +20,4 @@ const blog = defineCollection({
 	})
 });
 
-export const collections = { 'blog': blog, 'indexes': indexes };
+export const collections = { 'blog': blog };
