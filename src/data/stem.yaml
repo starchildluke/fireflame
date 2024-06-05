@@ -124,3 +124,10 @@
   tags:
     - CSS
     - the Web
+
+- title: Password Strength Estimator
+  desc: Password Strength Estimator estimates how strong your password is based on how long it'd take to crack by online and offline attacks (throttled and unthrottled)
+  link: https://lab.skk.moe/zxcvbn
+  tags:
+    - the Web
+    - security

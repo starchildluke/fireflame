@@ -4,18 +4,6 @@ import culture from './indexes/culture.yaml';
 import sports from './indexes/sports.yaml';
 import stem from './indexes/stem.yaml';
 
-const allYamls = [].concat(culture, sports, stem).flatMap((x) => x);
-
-const indexes = defineCollection({
-	type: 'data',
-	schema: allYamls({
-		title: z.string(),
-		desc: z.string().optional(),
-		link: z.string(),
-		tags: z.array(z.string()).optional()
-	})
-});
-
 const blog = defineCollection({
 	type: 'content',
 	schema: z.object({
