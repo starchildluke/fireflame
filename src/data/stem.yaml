@@ -131,3 +131,15 @@
   tags:
     - the Web
     - security
+
+- title: My SimWeb
+  desc: In this site you will find information about almost all of Maxis's Sim Games and some others
+  link: http://www.pipian.com/simweb/Frstpage.htm
+  tags:
+    - gaming
+
+- title: LabGuy's World: The History of Video Tape Recorders before Betamax and VHS
+  desc: Find out where that VCR in your living room came from. Read about video hardware that has been extinct a very long time.
+  link: http://labguysworld.com/
+  tags:
+    - tech

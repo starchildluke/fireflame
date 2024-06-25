@@ -106,3 +106,15 @@
   link: http://whatthefuckshouldimakefordinner.com/index.php
   tags:
     - food and drink
+
+- title: Flowers of India
+  desc: Flowers of India is aimed at having information about all the flowers found in India, with their common names, especially in Indian languages, pictures and habitat, easily available in one place.
+  link: http://flowersofindia.net/
+  tags:
+    - nature
+    
+- title: The McLibel Trial
+  desc:  The McLibel Trial is the infamous British court case between McDonald's and a former postman & a gardener from London (Helen Steel and Dave Morris). It ran for two and a half years and became the longest ever English trial. The defendants were denied legal aid and their right to a jury, so the whole trial was heard by a single Judge, Mr Justice Bell. He delivered his verdict in June 1997.
+  link: https://www.mcspotlight.org/case/
+  tags:
+    - food and drink

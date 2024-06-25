@@ -119,3 +119,15 @@
   link: https://tennis-buzz.com/
   tags:
     - tennis
+
+- title: Geniac's WWF Rankings
+  desc: Rankings of solo WWF wrestlers and teams from January 3, 1998 to February 25, 2001, ordered by number of wins (descending), then number of matches (ascending), then by name (alphabetically).
+  link: http://www.geniac.net/wwf/
+  tags:
+    - wrestling
+
+- title: Tim Krabbé's Chess Curiosities
+  desc: A site about the beauty of chess - with games, problems, endgame studies and more
+  link: https://timkr.home.xs4all.nl/chess/chess.html
+  tags:
+    - chess

@@ -4,16 +4,14 @@
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import Sitemapper from 'sitemapper';
+import SearchIndex from '../components/SearchIndex.astro';
 
 // METADATA VARIABLES
 
 let metaTitle = 'HTML Sitemap';
 let description = '';
 
-const sitemap = new Sitemapper();
-
-const sitemapURLs = await sitemap.fetch('https://www.firefla.me/sitemap.xml');
+const allPages = await Astro.glob('./*.astro');
 
 ---
 <html lang="en">
@@ -24,13 +22,19 @@ const sitemapURLs = await sitemap.fetch('https://www.firefla.me/sitemap.xml');
 <Header {metaTitle} />
 <body>
   <main>
+  <h2>Main pages</h2>
           <ul>
-      {sitemapURLs.sites.map(( url ) => (
-                  <li class="post-preview wiki-listing post-list">
-                    <a href={url}>{url}</a>
-                  </li>
+          <li><a href="/">/</a></li>
+      {allPages.map(( url ) => (
+        url.url.length > 0 ?
+          <li><a href={url.url}>{url.url}</a></li>
+          : ""
                 ))}
     </ul>
+    <h2>Search tag pages</h2>
+    <div style="columns:2;column-gap:3rem;">
+      <SearchIndex />
+    </div>
   </main>
 </body>
 <Footer></Footer>
